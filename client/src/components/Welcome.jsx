@@ -1,3 +1,5 @@
+import { AiFillAlipayCircle } from "react-icons/ai";
+import 
 const Welcome = () =>
 {
     return (

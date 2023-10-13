@@ -23,7 +23,7 @@ const Input = ({ placeholder, name, type, value, handleChange }) => (
 const Welcome = () => {
   const { currentAccount, connectWallet, handleChange, sendTransaction, formData, isLoading } = useContext(TransactionContext);
 
-  const handleSubmit = (e) => {
+  const  handleSubmit = (e) => {
     const { addressTo, amount, keyword, message } = formData;
 
     e.preventDefault();
@@ -41,7 +41,7 @@ const Welcome = () => {
             Send Crypto <br /> across the world
           </h1>
           <p className="text-left mt-5 text-white font-light md:w-9/12 w-11/12 text-base">
-            Explore the crypto world. Buy and sell cryptocurrencies easily on Krypto.
+            Explore the crypto world. Buy and sell cryptocurrencies easily on Bricks.
           </p>
           {!currentAccount && (
             <button
